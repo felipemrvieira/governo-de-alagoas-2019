@@ -1,0 +1,24 @@
+// bower:scss
+// endbower
+@import 'variables';
+@import 'header';
+
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+
+.padding-lateral{
+  padding: 0 128px;
+}
+
+body{
+  background-color: $soft-grey;
+  main{
+    max-width: 100%;
+    overflow: hidden;
+    div{
+     
+    }
+  }
+}
