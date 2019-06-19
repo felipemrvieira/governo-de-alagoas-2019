@@ -4,7 +4,16 @@ $soft-green: #05c99a;
 $soft-grey: #e8e8e8;
 $dark-grey: #979b9e;
 $white: #ffffff;
+$soft-black: #212529;
 
-$blue-gradiente: #03b8cb;
-$green-gradiente: #5fdb85;
-$yellow-gradiente: #bcff3f;
+$laranja: #F7941D;
+$verde-claro: #A6CE39;
+$verde-escuro: #007F49;
+
+$border-radius: 4px;
+
+@font-face {
+    font-family: "gotham-light";
+    src: url("../fonts/Gotham-Light.otf");
+  }
+  
