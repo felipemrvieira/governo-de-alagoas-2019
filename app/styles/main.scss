@@ -2,6 +2,23 @@
 // endbower
 @import 'variables';
 @import 'header';
+@import 'carousel';
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #232323; 
+  transition: color 0.3s ease;
+}
+
+// *{
+//   max-width: 100%;
+//   overflow: hidden;
+// }
 
 .container-fluid{
   margin: 0;
@@ -9,8 +26,15 @@
 }
 
 .padding-lateral{
-  padding-left: 128px;
-  padding-right: 128px;
+  @media only screen and (min-width: 1000px) {
+    padding-left: 128px;
+    padding-right: 128px;
+  }
+  @media only screen and (max-width: 999px) {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
 }
 
 body{

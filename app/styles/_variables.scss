@@ -13,7 +13,12 @@ $verde-escuro: #007F49;
 $border-radius: 4px;
 
 @font-face {
-    font-family: "gotham-light";
-    src: url("../fonts/Gotham-Light.otf");
-  }
+  font-family: "gotham-light";
+  src: url("../fonts/Gotham-Light.otf");
+}
+
+@font-face {
+  font-family: "gotham-bold";
+  src: url("../fonts/GothamBold.ttf");
+}
   
