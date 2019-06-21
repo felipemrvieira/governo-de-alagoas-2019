@@ -1,0 +1,21 @@
+
+@media only screen and (min-width: 1000px) {
+    #web-governador{
+        height: 100%;
+        padding: 100px 0;
+
+        display: flex;
+        justify-content: center;
+        img{
+            float: right;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+   
+}
+
+@media only screen and (max-width: 999px) {
+
+  
+}
