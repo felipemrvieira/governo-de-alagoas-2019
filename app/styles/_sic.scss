@@ -2,9 +2,25 @@
 @media only screen and (min-width: 1000px) {
     #sic{
         background-color: $verde-claro;
-        height: 80vh;
+        // height: 80vh;
         .titulo-componente{
             @include titulo(32px, white);
+        }
+
+        .sic-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 64px 0;
+            .sic{
+                width: 300px;
+                margin: 0 2px;
+                img{
+                    width: 100%;
+                    overflow: hidden;
+
+                }
+            }
         }
 
     }

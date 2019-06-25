@@ -1,15 +1,114 @@
 
 @media only screen and (min-width: 1000px) {
     #footer{
-        background-color: $laranja;
-        height: 80vh;
-        .titulo-componente{
-            @include titulo(32px, white);
+        background-color: $azul-claro;
+        color: white;
+        font-family: "gotham-light";
+        // height: 80vh;
+        nav{
 
+            ul{
+                list-style-type: none;
+                column-count: 3;
+                column-gap: 33.33%;
+                padding: 0 128px;
+
+                li{
+                    
+                   padding-bottom: 10px;
+
+                }
+            }
+        }
+        .footer-inferior{
+            padding: 32px 128px;
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .logo{
+                
+                overflow: hidden;
+                img{
+                    width: 300px;
+                }
+            }
+            .info{
+                overflow: hidden;
+                .orgao{
+                    margin-left: 10px;
+                    text-transform: uppercase;
+                }
+                .telefone{                
+                    margin-left: 10px;
+                }
+                .endereco{                
+                    margin-left: 10px;
+                }
+                hr{
+                    background-color: white;
+                }
+
+                #footer-nav-social{
+                    .nav-social-icon{
+                        width: 35px;
+                        height: 35px;
+                        margin-left: 10px;
+                        border-radius: 50%;
+                        float: left;
+                        cursor: pointer;
+                        background: #F8F7F7 url(../images/sprites.png) no-repeat;
+                        background-size : 600%;
+
+                        transition-duration: 0.2s;
+                        background-color: transparent;
+                        &:hover{
+                            background-color: $azul-escuro;
+
+                        }
+
+                    }
+                    #nav-eouv{
+                        background-position: 85% 15%;
+                    }
+                    #nav-info{
+                        background-position: 96% 15%;
+                    }
+                    #nav-twitter{
+                        background-position: 50.9% 1.8%;
+                    }
+                    #nav-instagram{
+                        background-position: 5.9% 1.1%;
+                    }
+                    #nav-youtube{
+                        background-position: 28.5% 15.1%
+                    }
+                    #nav-facebook{
+                        background-position: 50.5% 16.1%;
+                    }
+
+                }
+            }
         }
 
     }
    
+}
+
+#assinatura{
+    padding: 8px;
+    color: white;
+    text-align: center;
+    font-family: "gotham-light";
+    background-color: $azul-escuro;
+    #assinatura-logo{
+        background: url(../images/sprites-logos.png) no-repeat;
+        background-position: 24% 2%;
+        width: 95px;
+        display: inline-block;
+        height: 45px;
+    }
 }
 
 @media only screen and (max-width: 999px) {
