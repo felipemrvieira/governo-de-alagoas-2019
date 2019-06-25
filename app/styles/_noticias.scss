@@ -55,33 +55,7 @@
                 }
             }
         }
-        .botao-container{
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            margin-top: 32px;
-            .botao{
-                cursor: pointer;
-               
-                background: transparent;
-                color: $laranja;
-                font-size: 18px;
-                border-color: $laranja;
-                border-style: solid;
-                border-width: 2px;
-                border-radius: 6px;
-                padding: 10px 40px;
-                font-family: "gotham-light";
-                transition: all 0.2s linear;
-                text-decoration: none;
-                &:hover {
-                    color: white;
-                    background: $laranja;
-                    transition: all 0.2s linear;
-                }
-
-            }
-        }
+        @include botao(32px, $laranja);
 
     }
    

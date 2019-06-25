@@ -9,6 +9,8 @@ $soft-black: #212529;
 $laranja: #F7941D;
 $verde-claro: #A6CE39;
 $verde-escuro: #007F49;
+$azul-escuro: #1072BA;
+$azul-claro: #14B1E7;
 
 $border-radius: 4px;
 
@@ -36,5 +38,35 @@ $fa-font-path:"../../node_modules/font-awesome/fonts";
   text-transform: uppercase;
   color: $cor;
   margin-bottom: 24px;
+}
 
+@mixin botao($size: 32px, $cor: $verde-claro, $cor-hover: white) {
+
+  .botao-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    .botao{
+        cursor: pointer;
+      
+        background: transparent;
+        color: $cor;
+        font-size: 18px;
+        border-color: $cor;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 6px;
+        padding: 10px 40px;
+        font-family: "gotham-light";
+        transition: all 0.2s linear;
+        text-decoration: none;
+        &:hover {
+            color: $cor-hover;
+            background: $cor;
+            transition: all 0.2s linear;
+        }
+
+    }
+  }
 }
