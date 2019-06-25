@@ -1,0 +1,18 @@
+
+@media only screen and (min-width: 1000px) {
+    #videos{
+        background-color: $laranja;
+        height: 80vh;
+        .titulo-componente{
+            @include titulo(32px, white);
+
+        }
+
+    }
+   
+}
+
+@media only screen and (max-width: 999px) {
+
+  
+}

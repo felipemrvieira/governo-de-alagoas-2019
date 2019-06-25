@@ -29,10 +29,11 @@ $fa-font-path:"../../node_modules/font-awesome/fonts";
   @extend .fa-user;
 }
 
-@mixin titulo($size: 32px) {
+@mixin titulo($size: 32px, $cor: $verde-claro) {
   font-family: "gotham-light";
+  text-align: center;
   font-size: $size;
   text-transform: uppercase;
-  color: $verde-claro;
+  color: $cor;
 
 }

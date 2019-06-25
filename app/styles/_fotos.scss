@@ -1,0 +1,17 @@
+
+@media only screen and (min-width: 1000px) {
+    #fotos{
+        // background-color: #f6f6f6;
+        height: 80vh;
+        .titulo-componente{
+            @include titulo(32px, $laranja);
+        }
+
+    }
+   
+}
+
+@media only screen and (max-width: 999px) {
+
+  
+}

@@ -5,6 +5,16 @@
 @import 'carousel';
 @import 'servicos';
 @import 'web-governador';
+@import 'noticias';
+@import 'videos';
+@import 'fotos';
+@import 'podcasts';
+@import 'programas';
+@import 'conheca';
+@import 'sic';
+@import 'social';
+@import 'footer';
+
 
 body{
   margin: 0;
@@ -36,6 +46,15 @@ a{
     padding-left: 32px;
     padding-right: 32px;
   }
+
+}
+
+.padding-vertical{
+  @media only screen and (min-width: 1000px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  
 
 }
 
