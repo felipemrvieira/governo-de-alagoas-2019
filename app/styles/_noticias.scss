@@ -3,8 +3,84 @@
     #noticias{
         background-color: #f6f6f6;
         height: 80vh;
+        display: flex;
+        flex-direction: column;
         .titulo-componente{
             @include titulo(32px, $laranja);
+        }
+        .noticias-container{
+            display: flex;
+            justify-content: space-evenly;
+            .noticia{
+                margin: 0 12px;
+                width: 30%;
+                border-radius: 6px;
+                transition: 0.6s;
+                -webkit-box-shadow: 0px 0px 45px -22px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 0px 45px -22px rgba(0,0,0,0.75);
+                box-shadow: 0px 0px 45px -22px rgba(0,0,0,0.75);
+                background-color: white;
+                &:hover{
+                    -webkit-box-shadow: 0px 0px 11px -6px rgba(0,0,0,0.99);
+                    -moz-box-shadow: 0px 0px 11px -6px rgba(0,0,0,0.99);
+                    box-shadow: 0px 0px 11px -6px rgba(0,0,0,0.99);
+                }          
+
+                .noticia-image{
+                    width: 100%;
+                    overflow: hidden;
+                    border-top-left-radius: 6px;
+                    border-top-right-radius: 6px;
+
+                }
+                .noticia-info{
+                    padding: 12px 18px;
+                    // color: $laranja;
+                  
+                    .noticia-chapeu{
+                        font-size: 12px;
+                        color: $dark-grey;
+                        font-family: "gotham-light";
+
+                    }
+                    .noticia-titulo{
+                        font-family: "gotham-bold";
+                    }
+                    .noticia-bigode{
+                        font-size: 14px;
+                        color: $laranja;
+                        font-family: "gotham-bold";
+
+                    }
+                }
+            }
+        }
+        .botao-container{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            margin-top: 32px;
+            .botao{
+                cursor: pointer;
+               
+                background: transparent;
+                color: $laranja;
+                font-size: 18px;
+                border-color: $laranja;
+                border-style: solid;
+                border-width: 2px;
+                border-radius: 6px;
+                padding: 10px 40px;
+                font-family: "gotham-light";
+                transition: all 0.2s linear;
+                text-decoration: none;
+                &:hover {
+                    color: white;
+                    background: $laranja;
+                    transition: all 0.2s linear;
+                }
+
+            }
         }
 
     }
