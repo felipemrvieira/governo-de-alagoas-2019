@@ -12,16 +12,22 @@
                 column-count: 3;
                 column-gap: 33.33%;
                 padding: 0 128px;
+                margin-bottom: 26px;;
 
                 li{
-                    
                    padding-bottom: 10px;
-
+                   a{
+                       text-decoration: none;
+                       color: white;
+                       &:hover{
+                        color: $azul-escuro;
+                       }
+                    }
                 }
             }
         }
         .footer-inferior{
-            padding: 32px 128px;
+            padding: 28px 128px;
             width: 100%;
             overflow: hidden;
             display: flex;
@@ -97,17 +103,26 @@
 }
 
 #assinatura{
-    padding: 8px;
+    padding: 18px;
     color: white;
     text-align: center;
     font-family: "gotham-light";
-    background-color: $azul-escuro;
+    background-color: $azul-claro;
+    hr{
+        width: 30%;
+        background-color: $azul-claro;
+    }
     #assinatura-logo{
         background: url(../images/sprites-logos.png) no-repeat;
         background-position: 24% 2%;
         width: 95px;
         display: inline-block;
-        height: 45px;
+        height: 42px;
+    }
+    p{
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
     }
 }
 
