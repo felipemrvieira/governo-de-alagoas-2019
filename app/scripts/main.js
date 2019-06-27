@@ -33,3 +33,7 @@ $('nav a').click(function(e) {
     $('.rightbox').children().not('.diario').addClass('noshow');
   }
 });
+
+function abreMenu(){
+  $('#menu-overlay').toggleClass('open');
+}
