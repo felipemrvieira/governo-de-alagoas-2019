@@ -37,7 +37,7 @@
                 
                 overflow: hidden;
                 img{
-                    width: 300px;
+                    width: 80%;
                 }
             }
             .info{
@@ -128,5 +128,132 @@
 
 @media only screen and (max-width: 999px) {
 
-  
+    #footer{
+        background-color: $azul-claro;
+        color: white;
+        font-family: "gotham-light";
+        nav{
+
+            ul{
+                list-style-type: none;
+                column-count: 2;
+                column-gap: 50%;
+                padding: 0 12px;
+                margin-bottom: 26px;;
+
+                li{
+                   padding-bottom: 10px;
+                   a{
+                       text-decoration: none;
+                       color: white;
+                       &:hover{
+                        color: $azul-escuro;
+                       }
+                    }
+                }
+            }
+        }
+        .footer-inferior{
+            padding: 12px;
+
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .logo{
+                
+                overflow: hidden;
+                img{
+                    width: 100%;
+                }
+                margin-bottom: 32px;
+            }
+            .info{
+                overflow: hidden;
+                .orgao{
+                    text-transform: uppercase;
+                    font-size: 24px;
+                }
+                .telefone{                
+                }
+                .endereco{                
+                }
+                hr{
+                    background-color: white;
+                }
+
+                #footer-nav-social{
+                    widows: 100%;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                    .nav-social-icon{
+                        width: 45px;
+                        height: 45px;
+                        margin-left: 10px;
+                        border-radius: 50%;
+                        float: left;
+                        cursor: pointer;
+                        background: #F8F7F7 url(../images/sprites.png) no-repeat;
+                        background-size : 600%;
+
+                        transition-duration: 0.2s;
+                        background-color: transparent;
+                        &:hover{
+                            background-color: $azul-escuro;
+
+                        }
+
+                    }
+                    #nav-eouv{
+                        background-position: 85% 15%;
+                    }
+                    #nav-info{
+                        background-position: 96% 15%;
+                    }
+                    #nav-twitter{
+                        background-position: 50.9% 1.8%;
+                    }
+                    #nav-instagram{
+                        background-position: 5.9% 1.1%;
+                    }
+                    #nav-youtube{
+                        background-position: 28.5% 15.1%
+                    }
+                    #nav-facebook{
+                        background-position: 50.5% 16.1%;
+                    }
+
+                }
+            }
+        }
+
+    }
+   
+}
+
+#assinatura{
+    padding: 18px;
+    padding-top: 0;
+    color: white;
+    text-align: center;
+    font-family: "gotham-light";
+    background-color: $azul-claro;
+    hr{
+        width: 90%;
+        background-color: $azul-claro;
+    }
+    #assinatura-logo{
+        background: url(../images/sprites-logos.png) no-repeat;
+        background-position: 24% 2%;
+        width: 95px;
+        display: inline-block;
+        height: 42px;
+    }
+    p{
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
+    }
 }

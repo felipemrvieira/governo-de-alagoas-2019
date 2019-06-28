@@ -63,5 +63,64 @@
 
 @media only screen and (max-width: 999px) {
 
-  
+    #fotos{
+        background-color: #f6f6f6;
+        // height: 80vh;
+        display: flex;
+        flex-direction: column;
+        .titulo-componente{
+            @include titulo(32px, $azul-escuro);
+        }
+        .fotos-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            .foto{
+                margin: 12px 0;
+                width: 100%;
+                border-radius: 6px;
+                transition: 0.6s;
+                -webkit-box-shadow: 0px 0px 45px -22px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 0px 45px -22px rgba(0,0,0,0.75);
+                box-shadow: 0px 0px 45px -22px rgba(0,0,0,0.75);
+                background-color: white;
+                &:hover{
+                    -webkit-box-shadow: 0px 0px 11px -6px rgba(0,0,0,0.99);
+                    -moz-box-shadow: 0px 0px 11px -6px rgba(0,0,0,0.99);
+                    box-shadow: 0px 0px 11px -6px rgba(0,0,0,0.99);
+                }          
+
+                .foto-image{
+                    width: 100%;
+                    overflow: hidden;
+                    border-top-left-radius: 6px;
+                    border-top-right-radius: 6px;
+
+                }
+                .foto-info{
+                    padding: 12px 18px;
+                    // color: $laranja;
+                  
+                    .foto-chapeu{
+                        font-size: 12px;
+                        color: $dark-grey;
+                        font-family: "gotham-light";
+
+                    }
+                    .foto-titulo{
+                        font-family: "gotham-bold";
+                    }
+                    .foto-bigode{
+                        font-size: 14px;
+                        color: $azul-escuro;
+                        font-family: "gotham-bold";
+
+                    }
+                }
+            }
+        }
+        @include botao(32px, $azul-escuro);
+
+    }
+   
 }

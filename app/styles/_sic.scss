@@ -28,6 +28,29 @@
 }
 
 @media only screen and (max-width: 999px) {
+    #sic{
+        background-color: $verde-claro;
+        // height: 80vh;
+        .titulo-componente{
+            @include titulo(32px, white);
+        }
 
+        .sic-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 12px 0;
+            .sic{
+                width: 100%;
+                margin: 2px 0;
+                img{
+                    width: 100%;
+                    overflow: hidden;
+
+                }
+            }
+        }
+
+    }
   
 }

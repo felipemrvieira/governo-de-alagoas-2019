@@ -32,5 +32,33 @@
 
 @media only screen and (max-width: 999px) {
 
+    #programas{
+        // background-color: #f6f6f6;
+        // height: 80vh;
+        background-image: url("../images/bg-guerreiros.jpg");
+        background-size: cover; 
+        .titulo-componente{
+            @include titulo(32px, white);
+        }
+        .programas-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 12px 0;
+            overflow: hidden;
+            .programa{
+                width: 100%;
+                margin: 12px 0;
+                img{
+                    width: 100%;
+                    overflow: hidden;
+                    border-radius: 6px;
+                    border: 4px solid white;
+
+                }
+            }
+        }
+
+    }
   
 }
