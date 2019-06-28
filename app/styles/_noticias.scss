@@ -2,7 +2,7 @@
 @media only screen and (min-width: 1000px) {
     #noticias{
         background-color: #f6f6f6;
-        height: 80vh;
+
         display: flex;
         flex-direction: column;
         .titulo-componente{
@@ -44,12 +44,15 @@
 
                     }
                     .noticia-titulo{
-                        font-family: "gotham-bold";
+                        font-family: "gotham-bold2";
                     }
                     .noticia-bigode{
                         font-size: 14px;
-                        color: $laranja;
-                        font-family: "gotham-bold";
+                        font-family: "gotham-bold2";
+                        a{
+                            color: $laranja;
+                            text-decoration: none;
+                        }
 
                     }
                 }
@@ -107,12 +110,15 @@
 
                     }
                     .noticia-titulo{
-                        font-family: "gotham-bold";
+                        font-family: "gotham-bold2";
                     }
                     .noticia-bigode{
                         font-size: 14px;
                         color: $laranja;
-                        font-family: "gotham-bold";
+                        font-family: "gotham-bold2";
+                        a{
+                            text-decoration: none;
+                        }
 
                     }
                 }
