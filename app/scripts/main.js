@@ -9,7 +9,7 @@ console.log('\'Allo \'Allo!');
 // $(function () { $('[data-toggle="popover"]').popover(); });
 
 /*active button class onclick*/
-$('nav a').click(function(e) {
+$('.leftbox nav a').click(function(e) {
   e.preventDefault();
   $('nav a').removeClass('active');
   $(this).addClass('active');
