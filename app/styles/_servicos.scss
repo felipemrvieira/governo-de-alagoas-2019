@@ -2,7 +2,10 @@
     
     #servicos{
 
-        // height: 80vh;
+        background-image: url("../images/bg-alagoas.png");
+        background-position: bottom right;
+        background-repeat: no-repeat; 
+        background-size: 50%; 
         background-color: $soft-grey;   
 
         .titulo-componente{
@@ -148,7 +151,10 @@
 @media only screen and (max-width: 999px) {
     #servicos{
 
-        // height: 80vh;
+        background-image: url("../images/bg-alagoas.png");
+        background-position: bottom right;
+        background-repeat: no-repeat; 
+        background-size: 100%; 
         background-color: $soft-grey;   
 
         .titulo-componente{

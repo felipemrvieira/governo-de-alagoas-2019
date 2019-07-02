@@ -3,6 +3,9 @@
     #noticias{
         background-color: #f6f6f6;
 
+       
+
+
         display: flex;
         flex-direction: column;
         .titulo-componente{
@@ -67,6 +70,8 @@
 @media only screen and (max-width: 999px) {
     #noticias{
         background-color: #f6f6f6;
+
+       
         
         display: flex;
         flex-direction: column;

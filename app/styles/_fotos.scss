@@ -2,7 +2,10 @@
 @media only screen and (min-width: 1000px) {
     #fotos{
         background-color: #f6f6f6;
-        // height: 80vh;
+        background-image: url("../images/bg-alagoas-invertido.png");
+        background-position: bottom left;
+        background-repeat: no-repeat; 
+        background-size: 50%; 
         display: flex;
         flex-direction: column;
         .titulo-componente{
@@ -65,7 +68,11 @@
 
     #fotos{
         background-color: #f6f6f6;
-        // height: 80vh;
+        background-image: url("../images/bg-alagoas-invertido.png");
+        background-position: bottom left;
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+
         display: flex;
         flex-direction: column;
         .titulo-componente{
