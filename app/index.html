@@ -1,464 +1,535 @@
 <!doctype html>
 <html class="no-js" lang="pt-BR">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Governo de Alagoas</title>
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
-    <!-- build:css styles/vendor.css -->
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
-    <!-- endbuild -->
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-    <!-- build:js scripts/modernizr.js -->
-    <script src="scripts/modernizr.js"></script>
-    <!-- endbuild -->
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
 
-      
-    <!--[if IE]>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Governo de Alagoas</title>
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <!-- build:css styles/vendor.css -->
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+  <!-- endbuild -->
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+  <!-- build:js scripts/modernizr.js -->
+  <script src="scripts/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+
+<body>
+
+
+  <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div id="menu-overlay" class="">
-      <ul id="nav-mobile" >
+  <div id="menu-overlay" class="">
+    <ul id="nav-mobile">
+      <li class="menu-item">
+        <a href="#">Início</a>
+      </li>
+      <li class="menu-item">
+        <a href="#">Governo</a>
+      </li>
+      <li class="menu-item">
+        <a href="#">Alagoas</a>
+      </li>
+      <li class="menu-item">
+        <a href="secretarias-e-orgaos.html">Secretarias e órgãos</a>
+      </li>
+      <li class="menu-item">
+        <a href="noticias.html">Notícias</a>
+      </li>
+      <li class="menu-icon">
+        <a href="javascript:void(0);" onclick="abreMenu()">
+          <i class="fa fa-close"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+
+  <header class="header padding-lateral">
+    <div id="logo-container">
+      <img id="logo" class="" src="images/governo-alagoas.png" alt="logo governo">
+    </div>
+    <nav>
+      <div id="top-menu">
+        <div id="busca">
+          <input type="text" name="" id="field" placeholder="Busque aqui" autocomplete="off">
+          <button type="submit" class=" search-button">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+        <div id="nav-social">
+          <div class="nav-social-icon" id="nav-facebook"></div>
+          <div class="nav-social-icon" id="nav-youtube"></div>
+          <div class="nav-social-icon" id="nav-instagram"></div>
+          <div class="nav-social-icon" id="nav-twitter"></div>
+          <!-- <div class="nav-social-icon" id="nav-info"></div>
+            <div class="nav-social-icon" id="nav-eouv"></div> -->
+        </div>
+      </div>
+
+      <ul id="menu-principal" class="">
         <li class="menu-item">
-          <a href="#" >Início</a>
+          <a href="/">Início</a>
         </li>
         <li class="menu-item">
-          <a href="#" >Governo</a>
+          <a href="noticia.html">Governo</a>
         </li>
         <li class="menu-item">
-          <a href="#" >Alagoas</a>
+          <a href="noticia.html">Alagoas</a>
         </li>
         <li class="menu-item">
-          <a href="#" >Secretarias e órgãos</a>
+          <a href="secretarias-e-orgaos.html">Secretarias e órgãos</a>
         </li>
         <li class="menu-item">
-          <a href="noticias.html" >Notícias</a>
+          <a href="noticias.html">Notícias</a>
         </li>
         <li class="menu-icon">
-          <a href="javascript:void(0);" onclick="abreMenu()">
-            <i class="fa fa-close"></i>
-          </a>
+          <a href="javascript:void(0);" onclick="abreMenu()">☰</a>
         </li>
       </ul>
+    </nav>
+  </header>
+
+  <main>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/g1.jpg" alt="First slide">
+          <div class="carousel-caption ">
+            <h5 class="carousel-titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+            <p class="carousel-subtitulo">Eos libero suscipit sed perspiciatis saepe officia modi, facere vitae.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/g2.jpeg" alt="Second slide">
+          <div class="carousel-caption ">
+            <h5 class="carousel-titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+            <p class="carousel-subtitulo">Eos libero suscipit sed perspiciatis saepe officia modi, facere vitae.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/g3.jpg" alt="Third slide">
+          <div class="carousel-caption ">
+            <h5 class="carousel-titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+            <p class="carousel-subtitulo">Eos libero suscipit sed perspiciatis saepe officia modi, facere vitae.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
 
-    
-    
-    <header class="header padding-lateral">
-      <div id="logo-container">
-        <img id="logo" class="" src="images/governo-alagoas.png" alt="logo governo">
-      </div>
-      <nav>
-        <div id="top-menu">
-          <div id="busca">
-            <input type="text" name="" id="field" placeholder="Busque aqui" autocomplete="off" >
-            <button type="submit" class=" search-button">
-              <i class="fa fa-search"></i>
-            </button>
+    <div class="row padding-lateral padding-vertical" id="servicos">
+      <div class="metade">
+        <h2 class="titulo-componente">Serviços mais procurados</h2>
+
+        <section id="componente-servicos">
+
+          <div class="leftbox">
+            <nav>
+              <a id="cidadao" class="active">
+                <i class="fa fa-user"></i>
+                <p>Cidadão</p>
+              </a>
+              <a id="servidor">
+                <i class="fa fa-id-card"></i>
+                <p>Servidor</p>
+              </a>
+              <a id="contribuinte">
+                <i class="fa fa-money"></i>
+                <p>Contribuinte</p>
+              </a>
+              <a id="diario">
+                <i class="fa fa-file-text"></i>
+                <p>Diário Oficial</p>
+              </a>
+            </nav>
           </div>
-          <div id="nav-social">
-            <div class="nav-social-icon" id="nav-facebook"></div>
-            <div class="nav-social-icon" id="nav-youtube"></div>
-            <div class="nav-social-icon" id="nav-instagram"></div>
-            <div class="nav-social-icon" id="nav-twitter"></div>
-            <!-- <div class="nav-social-icon" id="nav-info"></div>
-            <div class="nav-social-icon" id="nav-eouv"></div> -->
-          </div>
-        </div>
 
-        <ul id="menu-principal" class="">
-          <li class="menu-item">
-            <a href="/" >Início</a>
-          </li>
-          <li class="menu-item">
-            <a href="noticia.html" >Governo</a>
-          </li>
-          <li class="menu-item">
-            <a href="noticia.html" >Alagoas</a>
-          </li>
-          <li class="menu-item">
-            <a href="noticia.html" >Secretarias e órgãos</a>
-          </li>
-          <li class="menu-item">
-            <a href="noticias.html" >Notícias</a>
-          </li>
-          <li class="menu-icon">
-            <a href="javascript:void(0);" onclick="abreMenu()">☰</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-
-
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="images/g1.jpg" alt="First slide">
-            <div class="carousel-caption ">
-                <h5 class="carousel-titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-                <p class="carousel-subtitulo">Eos libero suscipit sed perspiciatis saepe officia modi, facere vitae.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/g2.jpeg" alt="Second slide">
-            <div class="carousel-caption ">
-                <h5 class="carousel-titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-                <p class="carousel-subtitulo">Eos libero suscipit sed perspiciatis saepe officia modi, facere vitae.</p>
-              </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/g3.jpg" alt="Third slide">
-            <div class="carousel-caption ">
-                <h5 class="carousel-titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-                <p class="carousel-subtitulo">Eos libero suscipit sed perspiciatis saepe officia modi, facere vitae.</p>
-              </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
-      <div class="row padding-lateral padding-vertical" id="servicos">
-        <div class="metade">
-          <h2 class="titulo-componente">Serviços mais procurados</h2>
-
-          <section id="componente-servicos">
-  
-            <div class="leftbox">
-              <nav>
-                <a id="cidadao" class="active">
-                  <i class="fa fa-user"></i>
-                  <p>Cidadão</p>
-                </a>
-                <a id="servidor">
-
-                  <i class="fa fa-id-card"></i>
-                  <p>Servidor</p>
-                </a>
-                <a id="contribuinte">
-                  <i class="fa fa-money"></i>
-                  <p>Contribuinte</p>
-                </a>
-                <a id="diario">
-                  <i class="fa fa-file-text"></i>
-                  <p>Diário Oficial</p>
-                </a>
-              </nav>
-            </div>
-
-            <div class="rightbox">
-              <div class="cidadao">
-                <!-- <h2 class="titulo-servico ">Personal Info</h2> -->
-                <div class="links">
-                    <p>
-                        <a href="#">
-                          Emissão de RG
-                        </a> 
-                      </p>
-                      <p>
-                        <a href="#">
-                          Delegacia Interativa
-                        </a>
-                      </p>                
-                      <p>
-                        <a href="#">
-                          Exames CNH
-                        </a>
-                      </p>
+          <div class="rightbox">
+            
+            <div class="cidadao">
+              <div class="links">
+                <div>
+                  <a href="http://agendamento.ssp.al.gov.br/" target="_blank" rel="noopener noreferrer">
+                    Emissão de RG
+                  </a>
                 </div>
-                
-
-              </div>
-              
-              <div class="servidor noshow">
-                <h2 class="titulo-servico ">Personal Info</h2>
-                <p>Julie Park</p>
-              </div>
-          
-              <div class="contribuinte noshow">
-                <h2 class="titulo-servico ">Personal Info</h2>
-                <p>Julie Park</p>
-              </div>
-          
-              <div class="diario noshow">
-                <h2 class="titulo-servico ">Personal Info</h2>
-                <p>Julie Park</p>
+                <div>
+                  <a href="http://www.delegaciainterativa.al.gov.br/" target="_blank" rel="noopener noreferrer">
+                    Delegacia Interativa
+                  </a>
+                </div>
+                <div>
+                  <a href="http://www.detran.al.gov.br/habilitacao/agendamento-de-exames/" target="_blank" rel="noopener
+                    noreferrer">
+                    Exames CNH
+                  </a>
+                </div>
               </div>
             </div>
 
-          </section>
-        </div>
+            <div class="servidor noshow">
+              <div class="links">
+                <div>
+                  <a href="http://portaldoservidor.seplag.al.gov.br/login/" target="_blank" rel="noopener noreferrer">
+                    Contracheque
+                  </a>
+                </div>
+                <div>
+                  <a href="http://www.seplag.al.gov.br/servicos/573b4f5c8c36c71720000001" target="_blank" rel="noopener noreferrer">
+                    Senha de Consignações
+                  </a>
+                </div>
+                <div>
+                  <a href="http://sei.al.gov.br/sip/login.php?sigla_orgao_sistema=AL&sigla_sistema=SEI&infra_url=L3NlaS8=" target="_blank" rel="noopener
+                    noreferrer">
+                    Abertura de Processos
+                  </a>
+                </div>
+              </div>
+            </div>
 
-        <div class="metade">
-          <div id="web-governador">
-            <img class="" src="images/web-governador.jpg" alt="Web do governador" srcset="">
+            <div class="contribuinte noshow">
+              <div class="links">
+                <div>
+                  <a href="http://apl03.sefaz.al.gov.br/ipvaonline/" target="_blank" rel="noopener noreferrer">
+                    IPVA
+                  </a>
+                </div>
+                <div>
+                  <a href="http://apl03.sefaz.al.gov.br/darcb/" target="_blank" rel="noopener noreferrer">
+                    Documentos de Arrecadação
+                  </a>
+                </div>
+                <div>
+                  <a href="http://contribuinte.sefaz.al.gov.br/certidao/#/certidao-principal" target="_blank" rel="noopener
+                    noreferrer">
+                    Certidões Negativas
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="diario noshow">
+              <div class="links">
+                <div>
+                  <a href="http://www.imprensaoficialal.com.br/diario-oficial/" target="_blank" rel="noopener noreferrer">
+                    DO Completo
+                  </a>
+                </div>
+                <div>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    Poder Executivo
+                  </a>
+                </div>
+                <div>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    Atos Funcionais
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
           </div>
-        </div>
 
+        </section>
       </div>
 
-      
+      <div class="metade">
+        <div id="web-governador">
+          <img class="" src="images/web-governador.jpg" alt="Web do governador" srcset="">
+        </div>
+      </div>
+
+    </div>
 
 
-      <section class=" padding-lateral padding-vertical" id="noticias">
-        <h2 class="titulo-componente">Notícias</h2>
-        <div class="noticias-container">
-          
-            <div class="noticia">
-                <img class="noticia-image" src="images/noticia1.jpg" alt="noticia1">
-                <div class="noticia-info">
-                  <p class="noticia-chapeu">3 de Julho de 2019</p>
-                  <h4 class="noticia-titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
-                  <p class="noticia-bigode">
-                    <a href="noticia.html">Leia mais</a>
-                  </p>
-                </div>
-              </div>
 
-          <div class="noticia">
-            <img class="noticia-image" src="images/noticia2.jpg" alt="noticia1">
-            <div class="noticia-info">
-              <p class="noticia-chapeu">3 de Julho de 2019</p>
-              <h4 class="noticia-titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
-              <p class="noticia-bigode">
-                  <a href="noticia.html">Leia mais</a>
-                </p>
-            </div>
+
+    <section class=" padding-lateral padding-vertical" id="noticias">
+      <h2 class="titulo-componente">Notícias</h2>
+      <div class="noticias-container">
+
+        <div class="noticia">
+          <img class="noticia-image" src="images/noticia1.jpg" alt="noticia1">
+          <div class="noticia-info">
+            <p class="noticia-chapeu">3 de Julho de 2019</p>
+            <h4 class="noticia-titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
+            <p class="noticia-bigode">
+              <a href="noticia.html">Leia mais</a>
+            </p>
           </div>
-
-          <div class="noticia">
-            <img class="noticia-image" src="images/noticia3.jpeg" alt="noticia1">
-            <div class="noticia-info">
-              <p class="noticia-chapeu">3 de Julho de 2019</p>
-              <h4 class="noticia-titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
-              <p class="noticia-bigode">
-                  <a href="noticia.html">Leia mais</a>
-                </p>
-            </div>
-          </div>
-
         </div>
 
-       
-
-        <div class="botao-container">
-          <a class="botao" href="noticias.html">Mais notícias</a>
+        <div class="noticia">
+          <img class="noticia-image" src="images/noticia2.jpg" alt="noticia1">
+          <div class="noticia-info">
+            <p class="noticia-chapeu">3 de Julho de 2019</p>
+            <h4 class="noticia-titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
+            <p class="noticia-bigode">
+              <a href="noticia.html">Leia mais</a>
+            </p>
+          </div>
         </div>
-      </section>
 
-      <section id="videos" class=" padding-lateral padding-vertical">
-        <h2 class="titulo-componente">Vídeos</h2>
-        <div class="videos-container">
+        <div class="noticia">
+          <img class="noticia-image" src="images/noticia3.jpeg" alt="noticia1">
+          <div class="noticia-info">
+            <p class="noticia-chapeu">3 de Julho de 2019</p>
+            <h4 class="noticia-titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
+            <p class="noticia-bigode">
+              <a href="noticia.html">Leia mais</a>
+            </p>
+          </div>
+        </div>
 
-            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <iframe width="100%" height="430" src="https://www.youtube.com/embed/XvgXQD73S0Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-              </div>
-            </div>
-          
-          <div class="video" data-toggle="modal" data-target=".bd-example-modal-lg">
-            <img class="video-image" src="images/noticia3.jpeg" alt="noticia1">
-            <div class="video-info">
-              <h4 class="video-titulo">Lorem ipsum dolor sit.</h4>
-              <p class="video-data">3 de Julho de 2019</p>
+      </div>
+
+
+
+      <div class="botao-container">
+        <a class="botao" href="noticias.html">Mais notícias</a>
+      </div>
+    </section>
+
+    <section id="videos" class=" padding-lateral padding-vertical">
+      <h2 class="titulo-componente">Vídeos</h2>
+      <div class="videos-container">
+
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <iframe width="100%" height="430" src="https://www.youtube.com/embed/XvgXQD73S0Q" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
             </div>
           </div>
+        </div>
 
-          <div class="video" data-toggle="modal" data-target=".bd-example-modal-lg">
-            <img class="video-image" src="images/noticia3.jpeg" alt="noticia1">
-            <div class="video-info">
-              <h4 class="video-titulo">Lorem ipsum dolor sit.</h4>
-              <p class="video-data">3 de Julho de 2019</p>
-            </div>
+        <div class="video" data-toggle="modal" data-target=".bd-example-modal-lg">
+          <img class="video-image" src="images/noticia3.jpeg" alt="noticia1">
+          <div class="video-info">
+            <h4 class="video-titulo">Lorem ipsum dolor sit.</h4>
+            <p class="video-data">3 de Julho de 2019</p>
           </div>
+        </div>
 
-          <div class="video" data-toggle="modal" data-target=".bd-example-modal-lg">
-            <img class="video-image" src="images/noticia3.jpeg" alt="noticia1">
-            <div class="video-info">
-              <h4 class="video-titulo">Lorem ipsum dolor sit.</h4>
-              <p class="video-data">3 de Julho de 2019</p>
-            </div>
+        <div class="video" data-toggle="modal" data-target=".bd-example-modal-lg">
+          <img class="video-image" src="images/noticia3.jpeg" alt="noticia1">
+          <div class="video-info">
+            <h4 class="video-titulo">Lorem ipsum dolor sit.</h4>
+            <p class="video-data">3 de Julho de 2019</p>
           </div>
-
         </div>
-        <!-- videos container -->
-        <div class="botao-container">
-          <a class="botao" href="#">Mais vídeos</a>
-        </div>
-      </section>
-      
 
-      <section id="fotos" class=" padding-lateral padding-vertical">
-        <h2 class="titulo-componente">Fotos</h2>
-
-        <div class="fotos-container">
-          <div class="foto">
-            <img class="foto-image" src="images/noticia1.jpg" alt="noticia1">
-            <div class="foto-info">
-              <p class="foto-chapeu">3 de Julho de 2019</p>
-              <h4 class="foto-titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
-              <p class="foto-bigode">Leia mais</p>
-            </div>
+        <div class="video" data-toggle="modal" data-target=".bd-example-modal-lg">
+          <img class="video-image" src="images/noticia3.jpeg" alt="noticia1">
+          <div class="video-info">
+            <h4 class="video-titulo">Lorem ipsum dolor sit.</h4>
+            <p class="video-data">3 de Julho de 2019</p>
           </div>
-
-          <div class="foto">
-              <img class="foto-image" src="images/noticia1.jpg" alt="noticia1">
-              <div class="foto-info">
-                <p class="foto-chapeu">3 de Julho de 2019</p>
-                <h4 class="foto-titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
-                <p class="foto-bigode">Leia mais</p>
-              </div>
-            </div>
-
-            <div class="foto">
-                <img class="foto-image" src="images/noticia1.jpg" alt="noticia1">
-                <div class="foto-info">
-                  <p class="foto-chapeu">3 de Julho de 2019</p>
-                  <h4 class="foto-titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
-                  <p class="foto-bigode">Leia mais</p>
-                </div>
-              </div>
         </div>
 
-        <div class="botao-container">
-          <a class="botao" href="#">Mais fotos</a>
+      </div>
+      <!-- videos container -->
+      <div class="botao-container">
+        <a class="botao" href="#">Mais vídeos</a>
+      </div>
+    </section>
+
+
+    <section id="fotos" class=" padding-lateral padding-vertical">
+      <h2 class="titulo-componente">Fotos</h2>
+
+      <div class="fotos-container">
+        <div class="foto">
+          <img class="foto-image" src="images/noticia1.jpg" alt="noticia1">
+          <div class="foto-info">
+            <p class="foto-chapeu">3 de Julho de 2019</p>
+            <h4 class="foto-titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
+            <p class="foto-bigode">Leia mais</p>
+          </div>
         </div>
 
-      </section>
-      
-      <!-- <section id="podcasts" class=" padding-lateral padding-vertical">
+        <div class="foto">
+          <img class="foto-image" src="images/noticia1.jpg" alt="noticia1">
+          <div class="foto-info">
+            <p class="foto-chapeu">3 de Julho de 2019</p>
+            <h4 class="foto-titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
+            <p class="foto-bigode">Leia mais</p>
+          </div>
+        </div>
+
+        <div class="foto">
+          <img class="foto-image" src="images/noticia1.jpg" alt="noticia1">
+          <div class="foto-info">
+            <p class="foto-chapeu">3 de Julho de 2019</p>
+            <h4 class="foto-titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
+            <p class="foto-bigode">Leia mais</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="botao-container">
+        <a class="botao" href="#">Mais fotos</a>
+      </div>
+
+    </section>
+
+    <!-- <section id="podcasts" class=" padding-lateral padding-vertical">
         <h2 class="titulo-componente">Podcasts</h2>
       </section> -->
 
-      <section id="programas" class=" padding-lateral padding-vertical">
-        <h2 class="titulo-componente">Programas</h2>
-        <div class="programas-container">
-          <div class="programa">
+    <section id="programas" class=" padding-lateral padding-vertical">
+      <h2 class="titulo-componente">Programas</h2>
+      <div class="programas-container">
+        <div class="programa">
+          <a href="programa-escola-10.html" >
             <img src="images/programa1.png" alt="">
-          </div>
-          <div class="programa">
-            <img src="images/programa2.png" alt="">
-          </div>
-          <div class="programa">
-            <img src="images/programa3.png" alt="">
-          </div>
-          <div class="programa">
-            <img src="images/programa4.png" alt="">
-          </div>
+          </a>
         </div>
-      </section>
+        <div class="programa">
+          <a href="programa-ronda-no-bairro.html" >
+            <img src="images/programa2.png" alt="">
+          </a>
+        </div>
+        <div class="programa">
+          <a href="programa-vida-nova-nas-grotas.html" >
+            <img src="images/programa3.png" alt="">
+          </a>
+        </div>
+        <div class="programa">
+          <a href="programa-pro-estrada.html" >
+            <img src="images/programa4.png" alt="">
+          </a>
+        </div>
+      </div>
+    </section>
 
-      <!-- <section id="conheca" class=" padding-lateral padding-vertical">
+    <!-- <section id="conheca" class=" padding-lateral padding-vertical">
         <h2 class="titulo-componente">Conheça</h2>
       </section> -->
 
-      <section id="sic" class=" padding-lateral padding-vertical">
-        <h2 class="titulo-componente">SIC - Serviço de informação ao cidadão</h2>
-        <div class="sic-container">
-            <div class="sic">
-              <img src="images/sic1.jpg" alt="">
-            </div>
-            <div class="sic">
-              <img src="images/sic2.jpg" alt="">
-            </div>
-            <div class="sic">
-              <img src="images/sic3.jpg" alt="">
-            </div>
-            <div class="sic">
-              <img src="images/sic4.jpg" alt="">
-            </div>
-          </div>
-      </section>
+    <section id="sic" class=" padding-lateral padding-vertical">
+      <h2 class="titulo-componente">SIC - Serviço de informação ao cidadão</h2>
+      <div class="sic-container">
+        <div class="sic">
+          <a href="http://agenciaalagoas.al.gov.br/solicitacao-de-informacao" target="_blank" rel="noopener noreferrer">
+            <img src="images/sic1.jpg" alt="">
+          </a>
+        </div>
+        <div class="sic">
+          <a href="http://www.agenciaalagoas.al.gov.br/informacoes-publicas" target="_blank" rel="noopener noreferrer">
+            <img src="images/sic2.jpg" alt="">
+          </a>
+        </div>
+        <div class="sic">
+          <a href="http://www.acessoainformacao.gov.br/" target="_blank" rel="noopener noreferrer">
+            <img src="images/sic3.jpg" alt="">
+          </a>
+        </div>
+        <div class="sic">
+          <a href="http://e-ouv.al.gov.br/" target="_blank" rel="noopener noreferrer">
+            <img src="images/sic4.jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </section>
 
-      <!-- <section id="social" class=" padding-lateral padding-vertical">
+    <!-- <section id="social" class=" padding-lateral padding-vertical">
         <h2 class="titulo-componente">Social</h2>
       </section> -->
-    </main>
+  </main>
 
-    <footer id="footer" class="padding-lateral padding-vertical">
-      <nav>
-        <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Institucional</a></li>
-          <li><a href="#">Fotos</a></li>
-          <li><a href="#videos">Vídeos</a></li>
-          <li><a href="noticias.html">Notícias</a></li>
-          <li><a href="#">Secretarias</a></li>
-          <li><a href="#">Acessorias</a></li>
-          <li><a href="#">Diário Oficial</a></li>
-        </ul>
-      </nav>
-      
-      <div class="footer-inferior">
-          <div class="logo">
-            <img src="images/logo-estado.png" alt="">
-          </div>
-          <div class="info">
-            <h3 class="orgao">
-              Governo do estado de Alagoas
-            </h3>
-            <p class="telefone">(82) 3322-6688</p>
-            <p class="endereco">Rua Cincinato Pinto, s/n, Centro - CEP 57020-050. Maceió - Alagoas</p>
-            <hr/>
+  <footer id="footer" class="padding-lateral padding-vertical">
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Institucional</a></li>
+        <li><a href="#">Fotos</a></li>
+        <li><a href="#videos">Vídeos</a></li>
+        <li><a href="noticias.html">Notícias</a></li>
+        <li><a href="#">Secretarias</a></li>
+        <li><a href="#">Acessorias</a></li>
+        <li><a href="#">Diário Oficial</a></li>
+      </ul>
+    </nav>
 
-            <div id="footer-nav-social">
-              <div class="nav-social-icon" id="nav-facebook"></div>
-              <div class="nav-social-icon" id="nav-youtube"></div>
-              <div class="nav-social-icon" id="nav-instagram"></div>
-              <div class="nav-social-icon" id="nav-twitter"></div>
-            </div>
-
-          </div>
+    <div class="footer-inferior">
+      <div class="logo">
+        <img src="images/logo-estado.png" alt="">
       </div>
+      <div class="info">
+        <h3 class="orgao">
+          Governo do estado de Alagoas
+        </h3>
+        <p class="telefone">(82) 3322-6688</p>
+        <p class="endereco">Rua Cincinato Pinto, s/n, Centro - CEP 57020-050. Maceió - Alagoas</p>
+        <hr />
 
-      
-    </footer>
-    
-    <div id="assinatura">
-      <!-- <hr/> -->
-      <div id="assinatura-logo"></div>
-      <p>Governo do Estado de Alagoas © 2019</p>
+        <div id="footer-nav-social">
+          <div class="nav-social-icon" id="nav-facebook"></div>
+          <div class="nav-social-icon" id="nav-youtube"></div>
+          <div class="nav-social-icon" id="nav-instagram"></div>
+          <div class="nav-social-icon" id="nav-twitter"></div>
+        </div>
+
+      </div>
     </div>
 
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
-    <!-- build:js scripts/vendor.js -->
-    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- endbuild -->
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
-  </body>
+  </footer>
+
+  <div id="assinatura">
+    <!-- <hr/> -->
+    <div id="assinatura-logo"></div>
+    <p>Governo do Estado de Alagoas © 2019</p>
+  </div>
+
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function (b, o, i, l, e, r) {
+    b.GoogleAnalyticsObject = l; b[l] || (b[l] =
+      function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
+      e = o.createElement(i); r = o.getElementsByTagName(i)[0];
+      e.src = 'https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X'); ga('send', 'pageview');
+  </script>
+  <!-- build:js scripts/vendor.js -->
+  <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- endbuild -->
+  <!-- build:js scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
+
 </html>
